@@ -7,11 +7,11 @@ public class ListaArray {
 	
 	public ListaArray() {
 		contador = 0;
-		this.o = new Alumno[contador];
+		this.o = new Object[contador];
 	}
 	public ListaArray(int c) {
 		contador = c;
-		this.o = new Alumno[contador];
+		this.o = new Object[contador];
 	}	
 	public void agregar(Object a){
 		contador++;
